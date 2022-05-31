@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <MPD xmlns:dashif="https://dashif.org/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:nvod="urn:naver:vod:2020" xmlns:sea="urn:mpeg:dash:schema:sea:2012" xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011,urn:mpeg:dash:profile:mp2t-main:2011,urn:mpeg:dash:profile:mp2t-simple:2011" type="static" mediaPresentationDuration="P0Y0M0DT0H0M23.000S" minBufferTime="P0Y0M0DT0H0M3.000S" nvod:videoId="11A1D26B5F6645F747FA16C6F2A1C1CB317C" nvod:serverTime="2022-05-31T17:36:48+0900" nvod:expireTime="2022-05-31T18:06:48+0900">
     <Period id="11A1D26B5F6645F747FA16C6F2A1C1CB317C" duration="P0Y0M0DT0H0M23.000S" bitstreamSwitching="true">
-        <AdaptationSet mimeType="audio/mp4">
-            <Role schemeIdUri="urn:naver:vod:loudnessnormalize:2019-0">
-                <nvod:LoudnessNormalize enable="true" version="1.1.4" contentType="application/octet-stream" contentEncoding="BASE64_SAFE">
-                    <nvod:Property name="targetLoudness">-16.0</nvod:Property>
-                    <nvod:Property name="mode">youtube-like</nvod:Property>
-                    <nvod:Source type="string">AQAAAAEAIT0BOwEAvwakMfAfUxeXMXsLTEAoDQHFBQKhHgOdRwXAxwEGkSoJjSwR6yIX8g8j4RhGiyOLAbYHlwJqgQQ0AQAAAAEAAAIBF_____8=</nvod:Source>
-                </nvod:LoudnessNormalize>
-            </Role>
-            <Representation id="PD_MP4A02_256_2_BASE" bandwidth="262144" audioSamplingRate="44100" mimeType="audio/mp4" codecs="mp4a.40.2">
-                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-                <BaseURL>http://dev-video-py.naver.net/moondal/read/v2/VOD_ALPHA/moondal_2022_05_18_7/aa84020d-d66d-11ec-bec4-80615f0bcbf2.mp4?__gda__=1653988008_f166a561d5097a6f4be7266f228fe69b</BaseURL>
-                <SegmentTemplate/>
-            </Representation>
-            <Representation id="PD_MP4A02_128_2_BASE" bandwidth="131072" audioSamplingRate="44100" mimeType="audio/mp4" codecs="mp4a.40.2">
-                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-                <BaseURL>http://dev-video-py.naver.net/moondal/read/v2/VOD_ALPHA/moondal_2022_05_18_9/aa7e0e9c-d66d-11ec-bec4-80615f0bcbf2.mp4?__gda__=1653988008_f299f15e5506dc744b0be38be5d82d42</BaseURL>
-                <SegmentTemplate/>
-            </Representation>
-        </AdaptationSet>
         <AdaptationSet maxWidth="720" maxHeight="1280" mimeType="video/mp4">
             <Role schemeIdUri="urn:naver:vod:loudnessnormalize:2019-0">
                 <nvod:LoudnessNormalize enable="true" version="1.1.4" contentType="application/octet-stream" contentEncoding="BASE64_SAFE">
