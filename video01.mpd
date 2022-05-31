@@ -1,40 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <MPD xmlns:dashif="https://dashif.org/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:nvod="urn:naver:vod:2020" xmlns:sea="urn:mpeg:dash:schema:sea:2012" xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011,urn:mpeg:dash:profile:mp2t-main:2011,urn:mpeg:dash:profile:mp2t-simple:2011" type="static" mediaPresentationDuration="P0Y0M0DT0H0M23.000S" minBufferTime="P0Y0M0DT0H0M3.000S" nvod:videoId="11A1D26B5F6645F747FA16C6F2A1C1CB317C" nvod:serverTime="2022-05-31T17:36:48+0900" nvod:expireTime="2022-05-31T18:06:48+0900">
     <Period id="11A1D26B5F6645F747FA16C6F2A1C1CB317C" duration="P0Y0M0DT0H0M23.000S" bitstreamSwitching="true">
-        <AdaptationSet maxWidth="720" maxHeight="1280" mimeType="video/mp4">
-            <Role schemeIdUri="urn:naver:vod:loudnessnormalize:2019-0">
-                <nvod:LoudnessNormalize enable="true" version="1.1.4" contentType="application/octet-stream" contentEncoding="BASE64_SAFE">
-                    <nvod:Property name="targetLoudness">-16.0</nvod:Property>
-                    <nvod:Property name="mode">youtube-like</nvod:Property>
-                    <nvod:Source type="string">AQAAAAEAIT0BOwEAvwakMfAfUxeXMXsLTEAoDQHFBQKhHgOdRwXAxwEGkSoJjSwR6yIX8g8j4RhGiyOLAbYHlwJqgQQ0AQAAAAEAAAIBF_____8=</nvod:Source>
-                </nvod:LoudnessNormalize>
-            </Role>
-            <Representation id="PD_360P_640_650_96" bandwidth="910336" width="360" height="640" frameRate="30" codecs="avc1.42002a,mp4a.40.2">
-                <nvod:Label kind="fps">30</nvod:Label>
-                <nvod:Label kind="resolution">360</nvod:Label>
-                <BaseURL>http://dev-video-py.naver.net/moondal/read/v2/VOD_ALPHA/moondal_2022_05_18_1/aa75f84b-d66d-11ec-bec4-80615f0bcbf2.mp4?__gda__=1653988008_6e0dceb05beb67dab8ccca54dc391af4</BaseURL>
-            </Representation>
-            <Representation id="PD_720P_1280_2048_192" bandwidth="2731008" width="720" height="1280" frameRate="30" codecs="avc1.4d002a,mp4a.40.2">
-                <nvod:Label kind="fps">30</nvod:Label>
-                <nvod:Label kind="resolution">720</nvod:Label>
-                <BaseURL>http://dev-video-py.naver.net/moondal/read/v2/VOD_ALPHA/moondal_2022_05_18_0/aa66b608-d66d-11ec-bec4-80615f0bcbf2.mp4?__gda__=1653988008_6c8e46d7ab3158f67b4903f9deab882d</BaseURL>
-            </Representation>
-            <Representation id="PD_270P_480_500_64" bandwidth="691200" width="270" height="480" frameRate="30" codecs="avc1.42002a,mp4a.40.2">
-                <nvod:Label kind="fps">30</nvod:Label>
-                <nvod:Label kind="resolution">270</nvod:Label>
-                <BaseURL>http://dev-video-py.naver.net/moondal/read/v2/VOD_ALPHA/moondal_2022_05_18_8/aa6b9809-d66d-11ec-bec4-80615f0bcbf2.mp4?__gda__=1653988008_ab9e7bbfd1b27935f782410107d79a96</BaseURL>
-            </Representation>
-            <Representation id="PD_480P_854_1024_128" bandwidth="1411072" width="480" height="854" frameRate="30" codecs="avc1.42002a,mp4a.40.2">
-                <nvod:Label kind="fps">30</nvod:Label>
-                <nvod:Label kind="resolution">480</nvod:Label>
-                <BaseURL>http://dev-video-py.naver.net/moondal/read/v2/VOD_ALPHA/moondal_2022_05_18_3/aa61fb17-d66d-11ec-bec4-80615f0bcbf2.mp4?__gda__=1653988008_ce78ea79d5871d78408f8796ffad6cd9</BaseURL>
-            </Representation>
-            <Representation id="PD_144P_256_100_32" bandwidth="145408" width="144" height="256" frameRate="30" codecs="avc1.42002a,mp4a.40.2">
-                <nvod:Label kind="fps">30</nvod:Label>
-                <nvod:Label kind="resolution">144</nvod:Label>
-                <BaseURL>http://dev-video-py.naver.net/moondal/read/v2/VOD_ALPHA/moondal_2022_05_18_8/aa70a11a-d66d-11ec-bec4-80615f0bcbf2.mp4?__gda__=1653988008_f0b075c5f6de12938e6b343212cf07d6</BaseURL>
-            </Representation>
-        </AdaptationSet>
         <AdaptationSet maxWidth="720" maxHeight="1280" mimeType="video/mp2t" nvod:m3u="http://dev-video-py.naver.net/moondal/read/v2/VOD_ALPHA/moondal_2022_05_18_0/hls/b4a0aa0e-d66d-11ec-9320-6e3a82911ebf.m3u8?__gda__=1653988008_cf4b2dd65df0e7a082fee31a587d449f">
             <Role schemeIdUri="urn:naver:vod:loudnessnormalize:2019-0">
                 <nvod:LoudnessNormalize enable="true" version="1.1.4" contentType="application/octet-stream" contentEncoding="BASE64_SAFE">
